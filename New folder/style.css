@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    
+}
+
+html,
+body {
+    font-family: Arial;
+    line-height: 1.5;
+    background-color: #8ae095;
+}
+
+header{
+    height: 150px;
+    width: 860px ;
+    background-color: rgb(67, 163, 131) ;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 860px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+div nav ul li{
+    list-style-type: none;
+    border: 1px solid rgb(163, 159, 159);
+    background-color: rgb(216, 216, 216);
+}
+
+nav ul li a {
+    padding: 10px 79px;
+    display: inline-block;
+    border-left: 1px solid rgb(204, 186, 186);
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+
